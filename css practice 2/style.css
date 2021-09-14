@@ -1,0 +1,40 @@
+#search {
+background-color: rgb(228, 228, 228);
+border: rgb(87, 155, 155);
+border-style: solid;
+border-radius: 11px;
+width: 100px;
+border-width: 2px;
+font-size: 14px;
+font-style: arial;
+text-align: center;
+color: rgb(87, 155, 155);
+margin-bottom: 10px;
+}
+
+#button {
+background-color: rgb(3, 223, 175);
+color: white;
+border-radius: 50%;
+width: 30px;
+height: 30px;
+text-align: center;
+vertical-align: middle;
+line-height: 30px;
+font-style: bold;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+#createAccount {
+    background-color: rgb(38, 150, 255);
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+    color: white;
+    box-shadow: 5px 5px 0px  black;
+    width: 130px;
+    height: 30px;
+}
