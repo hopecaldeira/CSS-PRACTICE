@@ -1,0 +1,344 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #fff;
+    width: 1000px;
+    font-family: 'Balsamiq Sans';
+ }
+
+ .navbar {
+     display: flex;
+     justify-content: space-between;
+    width: 1000px;
+    height: 40px;
+    background-color: #000;
+ }
+
+.nav-left {
+    display: flex;
+     width: 350px;
+     background-color: #000;
+ }
+
+ .navbar .nav-left .profile {
+     width: 100px;
+     color: #fff;
+     margin-left: 20px;
+ }
+ 
+.links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 220px;
+    font-size: 14px;
+    color: lightgrey;
+    margin: 2px;
+ }
+
+.nav-right {
+     width: 200px;
+     background-color: #000;
+ }
+
+ .nav-right button {
+    background-color: rgb(27, 113, 124);
+    color: white;
+    width: 80px;
+    height: 20px;
+    margin-top: 8px;
+    margin-left: 30px;
+ }
+
+.user-card {
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+    border: solid 3px #ccc;
+}
+
+.user-card .header {
+    width: 400px;
+    height: 100px;
+    background-color: rgb(45, 168, 199);
+}
+
+.user-card .user-icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: solid 5px #ccc;
+    margin-top: -40px;
+    margin-left: 20px;
+}
+
+.user-icon img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.user-card .name {
+    margin-left: 20px;
+}
+
+.user-card .location {
+    display: flex;
+    margin-left: 15px;
+}
+
+.location img {
+    width: 12px;
+    height: 12px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.location p {
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.user-card .desc {
+    margin-left: 20px;
+}
+
+.desc p {
+    margin: 2px;
+}
+
+.user-card .edit {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.edit img {
+    width: 15px;
+    height: 15px;
+}
+
+.edit a {
+    font-size: 15px;
+}
+
+.education {
+    width: 400px;
+    height: 100px;
+    margin-left: 20px;
+    border: solid 3px #ccc;
+}
+
+.education h3 {
+    height: 30px;
+    color: white;
+    background-color: rgb(56, 56, 56);
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+.education .info {
+    margin-left: 20px;
+}
+
+.info .h4 {
+    font-size: 20px;
+    margin: 5px;
+}
+
+.info span {
+    color: #ccc;
+}
+
+.info p {
+    color: #000;
+    font-size: 15px;
+}
+
+.conreq {
+    width: 300px;
+    float: right;
+    margin-top: -430px;
+}
+
+.conreq .requests {
+    width: 285px;
+    height: 30px;
+    color: white;
+    background-color: rgb(56, 56, 56);
+    padding-left: 20px;
+    padding-top: 5px;
+    display: flex;
+}
+
+.requests .notif {
+    background-color: #ccc;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+.requests h3 {
+    margin-left: 20px;
+}
+
+.user-req {
+    width: 300px;
+    border: solid 3px #ccc;
+}
+
+.user-req .todd {
+    display: flex;
+    width: 300px;
+    margin: 10px;
+}
+
+.todd p {
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.todd img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.user-req .phil {
+    display: flex;
+    width: 300px;
+    margin: 10px;
+}
+
+.phil p {
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.phil img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.connects {
+    width: 300px;
+    float: right;
+    margin-top: -200px;
+    border: solid 3px #ccc;
+}
+
+.connects .friends {
+    width: 28-0px;
+    height: 30px;
+    color: white;
+    background-color: rgb(56, 56, 56);
+    padding-left: 20px;
+    padding-top: 5px;
+    display: flex;
+}
+
+.friends .notif2 {
+    background-color: #ccc;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font-size: 10px;
+}
+
+.notif2 p {
+    margin-left: 20px;
+}
+
+.besties {
+
+}
+
+.besties #adrien {
+    display: flex;
+    width: 300px;
+    margin: 5px;
+}
+
+#adrien img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+#adrien p {
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.besties #anne {
+    display: flex;
+    width: 300px;
+    margin: 5px;
+}
+
+#anne img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+#anne p {
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.besties #alayne {
+    display: flex;
+    width: 300px;
+    margin: 5px;
+}
+
+#alayne img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+#alayne p {
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.besties #arry {
+    display: flex;
+    width: 300px;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+#arry img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+#arry p {
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.more {
+    width: 300px;
+    border-top: solid 3px #ccc;
+}
+
+.more a {
+    margin: 10px;
+}
